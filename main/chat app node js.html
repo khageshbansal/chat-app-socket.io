@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat app using nodejs</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="app">
+        <header>
+            <div class="brand"><div class="avatar"><i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i></div>
+            <h2>My Chat App</h2></div>
+            <p> <span class="online"></span> people are Online</p>
+            <a href="https://github.com/khageshbansal/Chat-app-using-socket.io" style="margin-right:5px;">View Source Code</a>
+
+        </header>
+
+
+        <div class="msg-box">
+<!-- 
+             <span class="msg right">you: aur nhai kaisa hai</span>
+            <span class="msg left">replier:bhadiya bhai! tu suna</span>
+           <span class="msg middle">abc left chat</span> -->
+
+        </div>
+
+        <footer>
+            <form action="#" id="submit_form">
+            <input type="text" placeholder="Write text here" class="input" autofocus="autofocus">
+            <button class="btn" type="submit">Send</button>
+        </form>
+        </footer>
+        <div class="foot">Made by : Khagesh <i>using nodejs and socket.io</i></div>
+
+    </div>
+</body>
+<script src="/socket.io/socket.io.js"></script>
+<script src="/client.js"></script>
+</html>
